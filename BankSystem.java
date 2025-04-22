@@ -1,3 +1,6 @@
+// Build a class Account and derive SavingsAccount and CurrentAccount. Include interest calculation and withdrawal limits.
+
+
 // Base class
 class Account {
     protected String accountHolder;
@@ -95,3 +98,19 @@ public class BankSystem {
         current.displayBalance();
     }
 }
+
+// output:
+// Savings Account:
+// Account Balance: $5000.0
+// Interest added: $450.0
+// Withdrawal limit exceeded! Max allowed: $1000 per transaction.
+// Withdrawn: $800.0
+// Account Balance: $4650.0
+
+// ------------------------
+
+// Current Account:
+// Account Balance: $3000.0
+// Withdrawn: $3500.0
+// Overdraft limit exceeded!
+// Account Balance: $-500.0
